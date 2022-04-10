@@ -31,7 +31,7 @@ class Hangman
   def game_state
     puts
     puts "Round #{@round}"
-    puts "The challenge word is display below. It has #{@solution.length} letters. You've have #{8 - @misses.length} guesses left until you lose."
+    puts "The codeword is displayed below. It has #{@solution.length} letters. You've have #{8 - @misses.length} guesses left until you lose."
     puts "Hits: #{@hits}"
     puts "Misses: #{@misses}"
     puts

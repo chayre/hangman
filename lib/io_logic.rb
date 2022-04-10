@@ -1,4 +1,6 @@
 # Frozen_string_literal: true
+require 'fileutils'
+require 'date'
 
 # Modules for loading JSON files
 module Loading
