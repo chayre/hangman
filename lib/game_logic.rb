@@ -15,7 +15,7 @@ module GameLogic
 
   # Choose a random word from the dictionary
   def select_word
-    possible_word = File.open('english_dictionary.txt') do |file|
+    possible_word = File.open('../english_dictionary.txt') do |file|
       file.readlines.filter { |word| word.chomp.length.between?(6, 12) }
     end
     possible_word.sample.chomp
