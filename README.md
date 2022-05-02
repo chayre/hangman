@@ -8,7 +8,7 @@ This command-line application is an implementation of Hangman written in Ruby. T
 
 ## Player Interaction
 
-Next, the player is queried for a guess. The guess is checked as valid (a character) and then compared against the list of previous guesses (stored in hits and misses arrays) to check for uniqueness. If the player guesses correctly, their guess is added to the hits array and the word's "underscore form" is altered to restore each instance of the correctly guessed letter. Otherwise, their guess is added to the misses array. In either case, the round is incremented by one. See the preview images below as an example. The game ends when the player has run out of guesses or has correctly guessed each letter in the word.
+Next, the player is queried for a guess. The guess is checked as valid (a character) and then compared against the list of previous guesses (stored in hits and misses arrays) to check for uniqueness. If the player guesses correctly, their guess is added to the hits array and the word's "underscore form" is altered to restore each instance of the correctly guessed letter. Otherwise, their guess is added to the misses array and the number of guesses reamining is decreased by one. In either case, the round is incremented by one. See the preview images below as an example. The game ends when the player has run out of guesses or has correctly guessed each letter in the word.
 
 ## Saving/Loading Games
 
