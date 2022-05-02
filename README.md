@@ -1,7 +1,7 @@
 # Hangman
 This command-line application is an implementation of Hangman written in Ruby.
 ## Initialization
-This command-line application is an implementation of Hangman written in Ruby. The game begins by opening an english_dictionary.txt file and sampling a random word between 6 and 12 characters. The word is saved as the keyword, then converted into "underscore form":
+The game begins by opening an english_dictionary.txt file and sampling a random word between 6 and 12 characters. The word is saved as the keyword, then converted into "underscore form":
 >  "verizon "
 >  
   becomes  
