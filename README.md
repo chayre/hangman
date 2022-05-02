@@ -23,6 +23,6 @@ To run this application, install ruby, navigate to the project's folder, and ent
 
 ![image](https://user-images.githubusercontent.com/88121502/165216950-fe7ab29e-1815-4a6d-a133-8123c5c51d04.png)
 
-### Saving/Loading the game
+### Loading a saved game
 
 ![image](https://user-images.githubusercontent.com/88121502/165217086-f8e24df7-cb51-4f90-9c6c-446864b79f6c.png)
