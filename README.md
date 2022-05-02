@@ -18,11 +18,11 @@ As an added feature, the player has the option of loading a previously saved gam
 
 To run this application, install ruby, navigate to the project's folder, and enter "ruby lib/main.rb"
 
-## Preview
+## Demo
 ### Playing the game
 
 ![image](https://user-images.githubusercontent.com/88121502/165216950-fe7ab29e-1815-4a6d-a133-8123c5c51d04.png)
 
-### saving/Loading the game
+### Saving/Loading the game
 
 ![image](https://user-images.githubusercontent.com/88121502/165217086-f8e24df7-cb51-4f90-9c6c-446864b79f6c.png)
