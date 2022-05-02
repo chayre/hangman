@@ -1,7 +1,7 @@
 # Hangman
 This command-line application is an implementation of Hangman written in Ruby.
 ## Initialization
-The game begins by opening an english_dictionary.txt file and sampling a random word between 6 and 12 characters. The word is saved as the keyword, then converted into "underscore form":
+The game begins by opening an english_dictionary.txt file and sampling a random word between 6 and 12 characters. The word is saved as the keyword, then converted into "underscore form". Example:
 >  "verizon "
 >  
   becomes  
@@ -27,3 +27,6 @@ To run this application, install ruby, navigate to the project's directory, and 
 ### Loading a saved game
 
 ![image](https://user-images.githubusercontent.com/88121502/165217086-f8e24df7-cb51-4f90-9c6c-446864b79f6c.png)
+
+## Improvements
+A feature could be added to allow the player to guess what the word is (so that they don't have to continue entering letters one-by-one). The player could be given the option to give a custom save name and load their save in the middle of their game. They could also be given the option to not exit out of the game after saving. The feedback to the player could include a picture of a hangman being drawn for each incorrect guess (as is standard for hangman when played in real life). 
