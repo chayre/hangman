@@ -16,7 +16,7 @@ As an added feature, the player has the option of loading a previously saved gam
 
 ## Directions
 
-To run this application, install ruby, navigate to the project's folder, and enter "ruby lib/main.rb"
+To run this application, install ruby, navigate to the project's directory, and enter "ruby lib/main.rb"
 
 ## Demo
 ### Playing the game
